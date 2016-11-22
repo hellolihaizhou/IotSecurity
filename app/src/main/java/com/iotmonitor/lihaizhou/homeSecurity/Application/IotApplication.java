@@ -1,4 +1,4 @@
-package com.iotmonitor.lihaizhou.iotsecurity.Application;
+package com.iotmonitor.lihaizhou.homeSecurity.Application;
 
 import android.app.Application;
 /**

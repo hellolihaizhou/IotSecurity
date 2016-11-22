@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!--cardview color begin-->
+    <color name="view_left_color">#2fa881</color>
+    <color name="card_head_title_color">#FFCC00</color>
+    <color name="card_text_colorhint">#c5c5c5</color>
+    <color name="card_edittext_color">#2fa881</color>
+    <color name="login_btn_text_color">#d3d3d3</color>
+    <color name="forget_password_text_color">#9a9a9a</color>
+    <!--cardview color begin-->
 </resources>

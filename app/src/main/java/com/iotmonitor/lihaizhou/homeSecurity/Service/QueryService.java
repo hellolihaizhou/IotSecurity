@@ -1,4 +1,4 @@
-package com.iotmonitor.lihaizhou.iotsecurity.Service;
+package com.iotmonitor.lihaizhou.homeSecurity.Service;
 
 import android.app.Service;
 import android.content.Intent;

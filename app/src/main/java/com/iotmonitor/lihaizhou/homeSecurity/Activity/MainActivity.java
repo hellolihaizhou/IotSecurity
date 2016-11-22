@@ -1,4 +1,4 @@
-package com.iotmonitor.lihaizhou.iotsecurity.Activity;
+package com.iotmonitor.lihaizhou.homeSecurity.Activity;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.iotmonitor.lihaizhou.iotsecurity.R;
-import com.iotmonitor.lihaizhou.iotsecurity.Service.QueryService;
+import com.iotmonitor.lihaizhou.homeSecurity.R;
+import com.iotmonitor.lihaizhou.homeSecurity.Service.QueryService;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";

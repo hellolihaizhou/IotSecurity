@@ -1,4 +1,4 @@
-package com.iotmonitor.lihaizhou.iotsecurity;
+package com.iotmonitor.lihaizhou.homeSecurity;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
