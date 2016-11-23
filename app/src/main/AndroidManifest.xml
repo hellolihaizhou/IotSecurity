@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.iotmonitor.lihaizhou.homeSecurity.Activity.MainActivity" />
-        <activity android:name="com.iotmonitor.lihaizhou.homeSecurity.Activity.RegisterActivity"></activity>
+        <activity
+            android:name="com.iotmonitor.lihaizhou.homeSecurity.Activity.RegisterActivity"
+            android:theme="@style/Translucent"></activity>
     </application>
 
 </manifest>

@@ -1,12 +1,15 @@
 package com.iotmonitor.lihaizhou.homeSecurity.Activity;
 
+import android.annotation.TargetApi;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.os.Build;
 import android.os.IBinder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.Explode;
 import android.util.Log;
 
 import com.iotmonitor.lihaizhou.homeSecurity.R;
@@ -21,11 +24,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setupView();
+
+
         bindService();
     }
 
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     private void setupView()
     {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Explode explode = new Explode();
+            explode.setDuration(500);
+            getWindow().setExitTransition(explode);
+            getWindow().setEnterTransition(explode);
+        }
 
     }
 
